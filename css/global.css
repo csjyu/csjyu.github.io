@@ -96,6 +96,14 @@ body {
       box-sizing: border-box;
     }
 
+.smallerbox {
+  margin: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+/* the smallerbox was created to draw attention from the bigger boxes */
+    
 /* tweak box properties of different elements */
 h2, p {
   margin: 0px;
@@ -115,6 +123,9 @@ ul {
   background-color: #ffe6e6;
 }
 #pink .box{
+  background-color: #fff0f4; 
+}
+#pink .smallerbox{
   background-color: #fff0f4; 
 }
 #pink a {
